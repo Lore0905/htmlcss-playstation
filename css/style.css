@@ -13,7 +13,7 @@ color: lightgray;
 }
 /* test */
 *{
-
+    border: 1px solid black;
 }
 /* end commons */
 
@@ -56,9 +56,63 @@ header li{
     border-radius: 40px;
     background-color: #363636;
 }
+
 /* END HEADER */
 
 /* MAIN */
+
+/* jumbotron */
+.jumbotron{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-top: 100px;
+    position: relative;
+}
+.card_ img{
+    width: 50%;
+}
+.button_buy > a{
+    border-radius: 40px;
+    background-color: #cd3d0e;
+    padding: 5px 30px;
+    border: 1px solid #cd3d0e;
+}
+.button_accedi{
+    margin: 0px 25px;
+}
+.card_ h2{
+    font-size: 35px;
+}
+.card_ p{
+    font-size: 20px;
+}
+.card_{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 90%;
+    color: white;
+}
+/* mediaquery jumbotron */
+@media (min-width: 992px) {
+ .card_{
+    width: 400px;
+ }
+ .card_ img{
+     width: 100%;
+ }
+}
+
+/* nuova section */
+.play-items-img{
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+}
 /* END MAIN */
 
 /* FOOTER */
