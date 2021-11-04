@@ -2,11 +2,59 @@
 body{
     font-family: Arial, sans-serif;
 }
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fa-angle-down{
+color: lightgray;
+}
+/* test */
+*{
+
+}
 /* end commons */
 
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+header a{
+    color: black;
+}
+header li{
+    padding-right: 25px;
+}
+/* 1° header */
+.sony_logo{
+    width: 100%;
+    background-color: black;
+    text-align: right;
+    padding-right: 15px;
+}
+.sony_logo img{
+    width: 90px;
+    padding: 10px 0;
+}
+.fa-bars{
+    font-size: 30px;
+    color: #737373;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+}
+/* 2° header */
+.button_accedi{
+    margin: 0px 25px;
+}
+.button_accedi > a{
+    border-radius: 40px;
+    background-color: #363636;
 }
 /* END HEADER */
 
