@@ -144,9 +144,27 @@ margin-top: 20px;
 }
 /* ITEMS CONSOLE */
 .items-console img{
-    width: 70%;
+    width: 100%;
+    justify-content: center;
+}
+.items-console .description{
+    text-align: center;
+}
+.items-console-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* media queries items console */
+@media (min-width: 768px) {
+    .items-console-img img{
+        width: 50%;
+    }
+    .description{
+        font-size: 15px;
+    }
+}
 /* END MAIN */
 
 /* FOOTER */
