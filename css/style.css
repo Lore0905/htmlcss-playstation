@@ -13,7 +13,7 @@ color: lightgray;
 }
 /* test */
 *{
-    border: 1px solid black;
+
 }
 /* end commons */
 
@@ -107,11 +107,14 @@ header li{
  }
 }
 
-/* nuova section */
-.play-items-img{
-    width: 200px;
-    height: 50px;
-    background-color: cadetblue;
+/* NEW VIDEOGAMES */
+.new-videogames-section{
+margin-top: 20px;
+
+}
+.new-videogames-section img{
+    width: 100%;
+    border-radius: 10px;
 }
 /* END MAIN */
 
