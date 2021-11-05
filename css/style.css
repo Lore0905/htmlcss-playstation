@@ -9,8 +9,22 @@ a{
     text-decoration: none;
 }
 .fa-angle-down{
-color: lightgray;
+ color: lightgray;
 }
+.p_color_grey{
+    color: #727272;
+    font-size: 20px;
+}
+.color_blue{
+    color: #0073ce;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+
 /* test */
 *{
 
@@ -24,6 +38,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 1000;
 }
 header a{
     color: black;
@@ -56,6 +71,11 @@ header li{
     border-radius: 40px;
     background-color: #363636;
 }
+.playstation_menu{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
 
 /* END HEADER */
 
@@ -84,9 +104,7 @@ header li{
 .button_accedi{
     margin: 0px 25px;
 }
-.card_ h2{
-    font-size: 35px;
-}
+
 .card_ p{
     font-size: 20px;
 }
@@ -116,6 +134,19 @@ margin-top: 20px;
     width: 100%;
     border-radius: 10px;
 }
+
+/* PLAY 5 PRESENTATION */
+.button_more_information > a{
+    border-radius: 50px;
+    background-color: #2c64e6;
+    padding: 8px 10px;
+    border: 1px solid #2c64e6;
+}
+/* ITEMS CONSOLE */
+.items-console img{
+    width: 70%;
+}
+
 /* END MAIN */
 
 /* FOOTER */
