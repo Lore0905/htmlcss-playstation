@@ -79,6 +79,9 @@ header li{
     width: 100%;
     background-color: white;
 }
+#botton_more_inf{
+    border-radius: 40px;
+}
 
 /* END HEADER */
 
@@ -174,13 +177,14 @@ margin-top: 20px;
 /* second jambotron */
 #second-jumbotron{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 /* nuove uscite */
 .container-background-grey{
     background-color: #202020;
     width: 100%;
+    padding-bottom: 50px;
 }
 .new_releases img{
     width: 100%;
@@ -191,6 +195,15 @@ margin-top: 20px;
 }
 #description_new_releases{
     font-size: 25px;
+}
+
+/* playstation 4 presentation */
+.play-four-presentation p{
+    margin: 0px;
+}
+.card{
+    border: none;
+    width: 100%;
 }
 /* END MAIN */
 
