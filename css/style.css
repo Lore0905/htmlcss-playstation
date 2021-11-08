@@ -27,7 +27,6 @@ h3{
 .color_white{
     color: white;
 }
-
 /* test */
 *{
 
@@ -245,4 +244,32 @@ header li{
 /* END MAIN */
 
 /* FOOTER */
+footer{
+    background-color: #00439c;
+    margin-top: 7vh;
+}
+#play-logo-footer > img{
+    width: 100px;
+}
+footer a {
+    color: white;
+    font-size: 14px;
+}
+/* sony interactive Enterainment */
+.container-2-footer{
+}
+.container-2-footer img{
+    width: 150px;
+}
+@media screen and (min-width: 768px) {
+    ul{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 32%
+    }
+    .container-2-footer{
+        width: 50%;
+    }
+}
 /* END FOOTER */
