@@ -135,7 +135,7 @@ header li{
 
 /* NEW VIDEOGAMES */
 .new-videogames-section{
-margin-top: 20px;
+    margin-top: 20px;
 
 }
 .new-videogames-section img{
@@ -218,6 +218,30 @@ margin-top: 20px;
 #logo_ps_plus{
     width: 60%;
 }
+
+/* playstation now */
+.playstation_now{
+    width: 100%;
+    background-color:#161d3b;
+}
+.btn_now{
+    background-color: white;
+    color: blue;
+}
+#logo_ps_now{
+    width: 60%;
+}
+
+/* social */
+.social-media_container img{
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .social-media_container{
+        width: 700px;
+    }
+}
+
 /* END MAIN */
 
 /* FOOTER */
