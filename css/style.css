@@ -205,6 +205,19 @@ margin-top: 20px;
     border: none;
     width: 100%;
 }
+
+/* playstation plus */
+.playstation_plus{
+    width: 100%;
+    background-color:#bebcbb;
+}
+.btn_plus{
+    background-color: #d9dadc;
+    color: blue;
+}
+#logo_ps_plus{
+    width: 60%;
+}
 /* END MAIN */
 
 /* FOOTER */
