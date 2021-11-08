@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 .fa-angle-down{
- color: lightgray;
+    color: lightgray;
 }
 .p_color_grey{
     color: #727272;
@@ -33,6 +33,21 @@ h3{
 }
 /* end commons */
 
+/* HEADER */
+header{
+    font-family: Helvetica, arial, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+header a{
+    color: black;
+}
+header li{
+    padding-right: 25px;
+}
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -83,6 +98,7 @@ header li{
 }
 
 /* END HEADER */
+
 
 /* MAIN */
 
@@ -262,7 +278,7 @@ footer a {
     width: 150px;
 }
 @media screen and (min-width: 768px) {
-    ul{
+    footer ul{
         display: inline-block;
         margin: 0;
         padding: 0;
